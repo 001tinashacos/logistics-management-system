@@ -1,0 +1,16 @@
+@media (max-width: 770px) {
+    .more-infor {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 100vh;
+        box-shadow: 0 0 10px var(--search-text);
+    }
+    .viwes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .viwes .item-list {
+        flex: 1 1 150px;
+    }
+}

@@ -1,0 +1,131 @@
+.viwes .item-list {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.viwes .item-list .list-details {
+    margin-top: 10%;
+    width: 40%;
+}
+.viwes .item-list .intro {
+    width: 50%;
+    margin-right: 40px;
+}
+.viwes .item-list .intro img {
+    box-shadow: 0 0 10px black;
+    width: 600px;
+    height: 500px;
+    border-radius: 12px;
+}
+.request {
+    margin: 20px;
+    height: 550px;
+    border-radius: 12px;
+    background-color: darkblue;
+}
+
+
+.form-proces {
+    margin-top: 10px;
+}
+.form-proces .table {
+    margin-left: 20px;
+    width: 90%;
+    color: var(--text-color);
+}
+.form-proces .table .file {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    height: 0;
+    cursor: pointer;
+}
+.form-proces .table input {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 5px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.form-proces .table td select {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 5px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.button_order {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: var(--side-nav);
+    cursor: pointer;
+    border-radius: 8px;
+}
+.button_order:is(:hover, :focus) {
+    background-color: var(--side-nav);
+    outline: 1px solid var(--side-nav);
+    outline-offset: 1px;
+    color: var(--search-bar);
+    border-radius: 8px;
+}
+.button2 {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: var(--logo-text);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button2:is(:hover, :focus) {
+    background-color: var(--logo-text);
+    outline: 1px solid var(--logo-text);
+    outline-offset: 1px;
+    color: var(--search-bar);
+    border-radius: 8px;
+}
+.list-details .profile {
+    margin-top: -140px;
+    margin-left: 100px;
+}
+.post {
+    margin-left: 100px;
+    font-size: 25px;
+}
+.list-details .profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+
+.updates {
+    margin-top: 15%;
+    margin-left: 20%;
+    color: #fff;
+}
+.updates input {
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 5px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    color: #f2f2f2;
+    background-color: #273e7e;
+}
+.fl {
+    background-color: #273e7e;
+    border-radius: 5px;
+    height: 0;
+    cursor: pointer;
+}
